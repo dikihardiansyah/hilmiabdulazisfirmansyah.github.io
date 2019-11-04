@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Biodata Diri</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+	<div class="konten">
+		<div class="baris">
+			<div class="kolom-kotak-radius warna1">
+				<div class="kolom border-kanan float-left">
+					<div class="foto inline"></div>
+				</div>
+				<div class="kolom-kanan float-left">
+					<div class="kotak-bio text-tengah" style="background-color:#f44336">
+						<h2>Biodata Ku</h2>
+					</div>
+					<!-- Biodata Diri -->
+					<div id="biodataDiri" class="baris">
+						<div class="kolom warna2 label judul">
+							<p>Biodata Diri</p>
+						</div>
+					</div>
+					<div id="diri">
+						<!-- nama -->
+						<div class="baris">
+							<div class="kolom warna2 label">
+								<p>Nama</p>
+							</div>
+							<div class="kolom warna2 value">
+								<p>Hilmi Abdul Azis Firmansyah</p>
+							</div>
+						</div>
+						<!-- alamat -->
+						<div class="baris">
+							<div class="kolom warna2 label">
+								<p>Alamat</p>
+							</div>
+							<div class="kolom warna2 value">
+								<p>Kp. Babakan Sukasari RT 01 RW 09</p>
+							</div>
+						</div>
+						<!-- Desa -->
+						<div class="baris ">
+							<div class="kolom warna2 label">
+								<p>Desa</p>
+							</div>
+							<div class="kolom warna2 value">
+								<p>Mekarsari</p>
+							</div>
+						</div>
+						<!-- Kecamatan -->
+						<div class="baris">
+							<div class="kolom warna2 label">
+								<p>Kecamatan</p>
+							</div>
+							<div class="kolom warna2 value">
+								<p>Ciparay</p>
+							</div>
+						</div>
+						<!-- Kabupaten -->
+						<div class="baris">
+							<div class="kolom warna2 label">
+								<p>Kabupaten</p>
+							</div>
+							<div class="kolom warna2 value">
+								<p>Bandung</p>
+							</div>
+						</div>
+						<!-- Provinsi -->
+						<div class="baris">
+							<div class="kolom warna2 label">
+								<p>Provinsi</p>
+							</div>
+							<div class="kolom warna2 value">
+								<p>Jawa Barat</p>
+							</div>
+						</div>
+					</div>
+
+					<!-- Biodata Ortu -->
+					<div id="biodataOrtu" class="baris">
+						<div class="kolom warna2 label judul">
+							<p>Biodata Orang Tua</p>
+						</div>
+					</div>
+					<div id="ortu">
+						<!-- nama -->
+						<div class="baris">
+							<div class="kolom warna2 label">
+								<p>Nama Ayah</p>
+							</div>
+							<div class="kolom warna2 value">
+								<p>Agus Sulaeman</p>
+							</div>
+						</div>
+						<!-- alamat -->
+						<div class="baris">
+							<div class="kolom warna2 label">
+								<p>Alamat Ayah</p>
+							</div>
+							<div class="kolom warna2 value">
+								<p>Kp. Babakan Sukasari RT 01 RW 09</p>
+							</div>
+						</div>
+						<!-- Desa -->
+						<div class="baris ">
+							<div class="kolom warna2 label">
+								<p>Desa</p>
+							</div>
+							<div class="kolom warna2 value">
+								<p>Mekarsari</p>
+							</div>
+						</div>
+						<!-- Kecamatan -->
+						<div class="baris">
+							<div class="kolom warna2 label">
+								<p>Kecamatan</p>
+							</div>
+							<div class="kolom warna2 value">
+								<p>Ciparay</p>
+							</div>
+						</div>
+						<!-- Kabupaten -->
+						<div class="baris">
+							<div class="kolom warna2 label">
+								<p>Kabupaten</p>
+							</div>
+							<div class="kolom warna2 value">
+								<p>Bandung</p>
+							</div>
+						</div>
+						<!-- Provinsi -->
+						<div class="baris">
+							<div class="kolom warna2 label">
+								<p>Provinsi</p>
+							</div>
+							<div class="kolom warna2 value">
+								<p>Jawa Barat</p>
+							</div>
+						</div>
+					</div>
+
+					<!-- Social Media-->
+					<div id="sosial" class="baris">
+						<div class="kolom warna2 label judul">
+							<p>Sosial Media</p>
+						</div>
+					</div>
+					<div id="media">
+						<!-- Facebook -->
+						<div class="baris">
+							<div class="kolom warna2 label">
+								<p>Facebook</p>
+							</div>
+							<div class="kolom warna2 value">
+								<p><span><img src="img/lele.png" width="25px" class="sosmed"></span>
+								
+								<a href="https://www.facebook.com/hilmiabdulazisfirmansyah">Hilmi Abdul Azis Firmansyah</a></p>
+							</div>
+						</div>
+						<!-- Instagran -->
+						<div class="baris">
+							<div class="kolom warna2 label">
+								<p>Instagram</p>
+							</div>
+							<div class="kolom warna2 value">
+								<p><span><img src="img/ig.png" width="25px" class="sosmed"></span><a href="https://www.instagram.com/hilmiabdulazisfirmansyah">@hilmiabdulazisfirmansyah</a></p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<script type="text/javascript">
+		document.getElementById("biodataDiri").onclick = function(){show('diri')};
+		document.getElementById("biodataOrtu").onclick = function(){show('ortu')};
+		document.getElementById("sosial").onclick = function(){show('media')};
+
+		function show(diri){
+			document.getElementById(diri).classList.toggle('show');
+		}
+	</script>
+</body>
+</html>
