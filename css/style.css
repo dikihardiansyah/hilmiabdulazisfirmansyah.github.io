@@ -1,0 +1,149 @@
+
+@font-face {
+	font-family: twcent;
+	src: url(../font/TCM_____.TTF);
+}
+
+* {
+	box-sizing: border-box;
+	font-family: twcent;
+}
+.text-kanan{
+	text-align: right;
+}
+
+.text-tengah{
+	text-align: center;
+}
+
+.selengkapnya{
+	margin-right: 2vw;
+	color: white;
+	text-decoration: none;
+	text-shadow: -2px 3px 5px black;
+	box-shadow: 0 0 0px black;
+}
+
+a.selengkapnya:hover {
+	color: #00BCD4;
+}
+
+.konten {
+	min-height: 37vw;
+}
+
+.foto {
+	border:5px solid #d6d2d2;
+	border-radius: 50%;
+	height: 140px;
+	width: 140px;
+	margin:auto;
+	margin-top: 2vw;
+	background: url('../img/DSCF7018.JPG');
+	background-size: 13vw;
+	background-position: center;
+}
+.warna1{
+	background-color: #354056;
+}
+
+.warna2{
+	background-color: #00BCD4;
+}
+
+.kolom-kotak-radius {
+	width: 50%;
+	margin: auto;
+	margin-top: 20px;
+	border-radius: 13px;
+	display: flex;
+}
+
+.inline{
+	display: inline-block;
+	margin-left: 50px;
+	margin-top: 60px;
+}
+.baris {
+	width: 100%;
+}
+.kolom {
+	width: 9vw;
+}
+
+.kolom-kanan {
+	height: 100%;
+	width: 82%;
+	padding-bottom: 2vw;
+}
+
+.float-left{
+	float: left;
+}
+
+.border-kanan{
+	border-right: 3px solid #d6d2d2;
+}
+
+.kotak-bio{
+	float: left;
+	margin: auto;
+	border-radius: 5px;
+	color: white;
+	padding-left: 2vw;
+	width: 77%;
+	margin-left: 6vw;
+	margin-top: 1vw;
+}
+
+.label{
+	width: 25%;
+	height: 8vh;
+	margin-top: 20px;
+	margin-left: 6vw;
+	border-radius: 13px;
+	float: left;
+	color: white;
+	margin-right: -24px;
+	border-top-right-radius: 0px;
+	border-bottom-right-radius: 0px;
+	padding-left: 2vw;
+}
+
+.value{
+	width: 56%;
+	height: 8vh;
+	margin-top: 20px;
+	margin-left: 0vw;
+	border-radius: 13px;
+	float: left;
+	padding-left: 4vw;
+	background-color: #455863;
+	color: white;
+}
+
+.judul
+{
+	width: 77%;
+	background-color: teal;
+	border-radius:13px;
+}
+
+.judul:hover
+{
+	cursor:pointer;
+	background-color: #3d8282;
+}
+.show {display:none;}
+
+.sosmed{
+	margin: -6px;
+	margin-left: -2vw;
+	margin-right: 2vw;
+}
+
+a
+{
+	text-decoration: none;
+	color: #62ffe9;
+}
